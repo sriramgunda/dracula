@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('Scan'){
 			steps{
-				sh 'echo 'http://yahoo.com'
+				sh 'echo http://yahoo.com'
 			}
 		}
 	}
