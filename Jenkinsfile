@@ -3,12 +3,12 @@ pipeline {
 	stages{
 		stage('Build'){
 			steps{
-				bat 'echo http://google.com'
+				sh 'echo http://google.com'
 			}
 		}
 		stage('Scan'){
 			steps{
-				bat 'echo 'http://yahoo.com'
+				sh 'echo 'http://yahoo.com'
 			}
 		}
 	}
